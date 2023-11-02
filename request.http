@@ -1,4 +1,5 @@
 ########### local ###########
+# 실행이 안될경우 application.yaml 로컬 포트확인
 GET http://localhost:9320/api/hello
 
 GET http://localhost:9320/api/simple
@@ -8,8 +9,6 @@ GET http://dev.simple-api.127.0.0.1.sslip.io/api/simple
 
 
 GET http://dev.simple-api.127.0.0.1.sslip.io:9701/api/simple
-
-
 
 ########### ncp cluster ###########
 GET http://localhost:9320/api/hello
